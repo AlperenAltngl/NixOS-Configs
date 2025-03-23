@@ -41,11 +41,9 @@ in {
     dmidecode
     gparted
     home-manager
-    
     htop
     godot_4
     jetbrains-toolbox
-    
     kdePackages.filelight
     ffmpeg
     github-desktop
