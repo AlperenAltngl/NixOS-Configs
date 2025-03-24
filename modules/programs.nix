@@ -11,15 +11,16 @@ in {
     vscodium-fhs
     nixd
     alejandra
+    
     bottles
     undervolt
-    (python3.withPackages (p: with p; [pynvml]))
+    
     #Hyprland and costumisation
     hyprland
     waybar
     kitty
     mangohud
-    #CLI Riseing Tools
+    #CLI Rising Tools
     neofetch
     cmatrix
     cbonsai
@@ -27,6 +28,9 @@ in {
     git
     gitkraken
     ungit
+    #devTools
+    direnv
+    (python3.withPackages (p: with p; [pynvml]))
     #Others
     spoofdpi
     rivalcfg
