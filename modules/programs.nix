@@ -27,7 +27,6 @@ in {
     git
     gitkraken
     ungit
-    doxygen
     #Others
     spoofdpi
     rivalcfg
