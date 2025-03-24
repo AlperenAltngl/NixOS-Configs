@@ -11,10 +11,8 @@ in {
     vscodium-fhs
     nixd
     alejandra
-    
     bottles
     undervolt
-    
     #Hyprland and costumisation
     hyprland
     waybar
@@ -54,7 +52,6 @@ in {
     protonup
     devenv
     unzip
-    
     ];
   };
 }
