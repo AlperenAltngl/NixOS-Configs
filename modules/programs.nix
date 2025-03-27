@@ -14,8 +14,6 @@ in {
     bottles
     undervolt
     #Hyprland and costumisation
-    hyprland
-    waybar
     kitty
     mangohud
     #CLI Rising Tools
@@ -25,12 +23,14 @@ in {
     #git apps
     git
     gitkraken
-    ungit
     #devTools
     direnv
     (python3.withPackages (p: with p; [pynvml]))
+    # coding tools
+    godot_4
+    jetbrains-toolbox
+    code-cursor
     #Others
-    spoofdpi
     rivalcfg
     krita
     discord
@@ -44,8 +44,6 @@ in {
     gparted
     home-manager
     htop
-    godot_4
-    jetbrains-toolbox
     kdePackages.filelight
     ffmpeg
     github-desktop
