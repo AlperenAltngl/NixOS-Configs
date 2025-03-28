@@ -26,7 +26,6 @@ in {
     #devTools
     direnv
     (python3.withPackages (p: with p; [pynvml]))
-    vmware-workstation
     # coding tools
     godot_4
     jetbrains-toolbox
