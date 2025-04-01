@@ -23,7 +23,7 @@ in {
     cava
     #git apps
     git
-    gitkraken
+    lazygit
     #devTools
     direnv
     (python3.withPackages (p: with p; [pynvml]))
@@ -32,6 +32,7 @@ in {
     jetbrains-toolbox
     code-cursor
     #Others
+    protonvpn-gui
     rivalcfg
     krita
     discord
