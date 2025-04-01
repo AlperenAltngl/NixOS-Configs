@@ -20,6 +20,7 @@ in {
     neofetch
     cmatrix
     cbonsai
+    cava
     #git apps
     git
     gitkraken
