@@ -52,6 +52,7 @@ in {
     protonup
     devenv
     unzip
+    telegram-desktop
     ];
   };
 }
