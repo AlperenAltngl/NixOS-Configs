@@ -31,6 +31,7 @@ in {
     godot_4
     jetbrains-toolbox
     code-cursor
+    mars-mips
     #Others
     protonvpn-gui
     rivalcfg
