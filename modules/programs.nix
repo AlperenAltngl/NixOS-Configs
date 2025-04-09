@@ -33,7 +33,6 @@ in {
     code-cursor
     mars-mips
     #Others
-    protonvpn-gui
     rivalcfg
     krita
     discord
