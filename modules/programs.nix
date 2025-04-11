@@ -28,7 +28,7 @@ in {
     direnv
     (python3.withPackages (p: with p; [pynvml]))
     # coding tools
-    godot_4
+    godot
     jetbrains-toolbox
     code-cursor
     mars-mips
