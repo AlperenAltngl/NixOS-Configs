@@ -33,6 +33,7 @@ in {
     code-cursor
     mars-mips
     #Others
+    genymotion
     rivalcfg
     krita
     discord

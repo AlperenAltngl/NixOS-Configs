@@ -12,15 +12,15 @@
   programs.firefox.enable = true;
 
   #programs.waybar = {
-  #enable = true;
-  # Your other waybar configurations...
+    #enable = true;
+    #Your other waybar configurations...
   #};
 
 
-  programs.hyprland ={
-    enable = true;
-    xwayland.enable = true;
-  };
+  #programs.hyprland ={
+    #enable = true;
+    #xwayland.enable = true;
+  #};
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
