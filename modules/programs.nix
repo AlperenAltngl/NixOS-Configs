@@ -33,6 +33,7 @@ in {
     code-cursor
     mars-mips
     #Others
+    
     lmstudio
     rivalcfg
     krita
