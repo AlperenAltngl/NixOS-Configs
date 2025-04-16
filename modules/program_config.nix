@@ -16,7 +16,6 @@
     #Your other waybar configurations...
   #};
 
-
   #programs.hyprland ={
     #enable = true;
     #xwayland.enable = true;
