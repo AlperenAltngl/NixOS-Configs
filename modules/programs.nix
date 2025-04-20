@@ -28,12 +28,20 @@ in {
     direnv
     (python3.withPackages (p: with p; [pynvml]))
     # coding tools
+    vscode
     godot_4
     jetbrains-toolbox
     code-cursor
     mars-mips
+    #C++ things
+    gcc
+    gdb
+    ninja
+    cmake
+    vcpkg
+    clang-tools
     #Others
-    
+    virtualbox
     lmstudio
     rivalcfg
     krita

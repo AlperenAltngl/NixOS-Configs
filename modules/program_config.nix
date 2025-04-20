@@ -22,6 +22,7 @@
   #};
 
   # Enable CUPS to print documents.
+
   services.printing.enable = true;
 
   services.cloudflare-warp.enable = true;
