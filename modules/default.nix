@@ -15,6 +15,5 @@
     ./udevextra.nix
     ./user.nix
     ./security.nix
-
   ];
 }

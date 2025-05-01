@@ -4,7 +4,7 @@
   users.users.freakymonk = {
     isNormalUser = true;
     description = "Alperen Altingul";
-    extraGroups = ["networkmanager" "wheel"];
+    extraGroups = ["networkmanager" "wheel" "vboxdrv" "vboxpci" ];
     packages = with pkgs; [
       kdePackages.kate
       #  thunderbird

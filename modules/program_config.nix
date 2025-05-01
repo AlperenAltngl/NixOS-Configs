@@ -16,6 +16,10 @@
     #Your other waybar configurations...
   #};
 
+  # Virtualbox configs 
+  virtualisation.virtualbox.host.enable = true;
+  boot.kernelParams = [ "kvm.enable_virt_at_load=0" ];
+
   #programs.hyprland ={
     #enable = true;
     #xwayland.enable = true;
