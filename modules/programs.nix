@@ -38,6 +38,7 @@ in {
       clang-tools
       raylib
       #Others
+      ventoy
       lmstudio
       rivalcfg
       krita

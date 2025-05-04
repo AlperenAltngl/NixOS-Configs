@@ -1,5 +1,4 @@
-{config , ...}: {
-
+{config, ...}: {
   services.hardware.bolt.enable = true;
 
   hardware = {
@@ -11,7 +10,7 @@
       enable = true;
       enable32Bit = true;
     };
-   
+
     nvidia = {
       modesetting.enable = true;
       powerManagement.enable = false;
@@ -37,5 +36,4 @@
   };
 
   services.xserver.videoDrivers = ["nvidia"];
-  
 }
