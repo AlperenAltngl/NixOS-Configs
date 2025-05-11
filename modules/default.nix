@@ -1,6 +1,4 @@
-{ ... }:
-
-{
+{...}: {
   imports = [
     ./localisation.nix
     ./programs.nix
@@ -15,5 +13,6 @@
     ./udevextra.nix
     ./user.nix
     ./security.nix
+    ./sddm.nix
   ];
 }
