@@ -1,6 +1,8 @@
-{ inputs,pkgs,...}: {
-
-  
+{
+  inputs,
+  pkgs,
+  ...
+}: {
   programs.steam = {
     enable = true;
     remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
@@ -12,28 +14,30 @@
   programs.firefox.enable = true;
 
   #programs.waybar = {
-    #enable = true;
-    #Your other waybar configurations...
+  #enable = true;
+  #Your other waybar configurations...
   #};
 
-  # Virtualbox configs 
+  # Virtualbox configs
   virtualisation.virtualbox.host.enable = true;
-  boot.kernelParams = [ "kvm.enable_virt_at_load=0" ];
+  boot.kernelParams = ["kvm.enable_virt_at_load=0"];
 
   #programs.hyprland ={
-    #enable = true;
-    #xwayland.enable = true;
+  #enable = true;
+  #xwayland.enable = true;
   #};
 
   # Enable CUPS to print documents.
 
   services.printing.enable = true;
 
+  hardware.opentabletdriver.enable = true;
+
   services.cloudflare-warp.enable = true;
 
   programs.nix-ld = {
     enable = true;
-    libraries =   [
+    libraries = [
     ];
   };
 
@@ -43,17 +47,15 @@
     NIXOS_OZONE_WL = "1";
   };
 
-  
   xdg.portal = {
     enable = true;
-    extraPortals = [ pkgs.xdg-desktop-portal-wlr ];
+    extraPortals = [pkgs.xdg-desktop-portal-wlr];
   };
 
   imports = [inputs.aagl.nixosModules.default];
 
   nix.settings = inputs.aagl.nixConfig;
   programs.honkers-railway-launcher.enable = true;
-  
 
   # Enable touchpad support (enabled default in most desktopManager).
   # services.xserver.libinput.enable = true;
@@ -65,5 +67,4 @@
   #   enable = true;
   #   enableSSHSupport = true;
   # };
-  
 }

@@ -1,20 +1,17 @@
 # Edit this configuration file to define what should be installed on
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
-{ ...}: {
+{...}: {
   imports = [
     # Include the results of the hardware scan.
     ./hardware-configuration.nix
     ./modules
+    ./edid
   ];
 
-  
-  
   # List packages installed in system profile. To search, run:
   # $ nix search wget
- 
-  
-  
+
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
   # on your system were taken. It‘s perfectly fine and recommended to leave

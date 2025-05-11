@@ -22,6 +22,9 @@ in {
       git
       lazygit
       #devTools
+      qtcreator
+      qt6.full
+      libsForQt5.qt5.qmake
       direnv
       (python3.withPackages (p: with p; [pynvml]))
       # coding tools
@@ -38,6 +41,8 @@ in {
       clang-tools
       raylib
       #Others
+      zapzap
+      opentabletdriver
       ventoy
       lmstudio
       rivalcfg
