@@ -1,8 +1,21 @@
-{pkgs, ...}: {
+{pkgs, ...}: let
+  myWallpaper = pkgs.stdenv.mkDerivation {
+    name = "my-wallpaper";
+    src = builtins.path {
+      path = ../wallpapers/KillKnight-Void.jpg;
+      name = "Kill-knight-wpp.jpg";
+    };
+    phases = ["installPhase"];
+    installPhase = ''
+      mkdir -p $out/share/wallpapers
+      cp $src $out/share/wallpapers/my-wallpaper.png
+    '';
+  };
+in {
   environment.systemPackages = [
     (pkgs.writeTextDir "share/sddm/themes/breeze/theme.conf.user" ''
       [General]
-      background=${pkgs.kdePackages.plasma-workspace-wallpapers}/share/wallpapers/MilkyWay/contents/images/5120x2880.png
+      background=${myWallpaper}/share/wallpapers/my-wallpaper.png
     '')
   ];
 }

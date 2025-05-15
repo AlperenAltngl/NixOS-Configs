@@ -43,7 +43,6 @@ in {
       #Others
       zapzap
       opentabletdriver
-      ventoy
       lmstudio
       rivalcfg
       krita
