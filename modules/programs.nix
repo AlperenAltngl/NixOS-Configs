@@ -28,6 +28,7 @@ in {
       direnv
       (python3.withPackages (p: with p; [pynvml]))
       # coding tools
+      protonup
       godot_4
       jetbrains-toolbox
       code-cursor
@@ -40,10 +41,14 @@ in {
       vcpkg
       clang-tools
       raylib
+      #AIStuf
+      lmstudio
+      ollama
       #Others
+      calibre
+      docker
       zapzap
       opentabletdriver
-      lmstudio
       rivalcfg
       krita
       discord

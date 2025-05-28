@@ -13,11 +13,15 @@
   # Install firefox.
   programs.firefox.enable = true;
 
+  programs.direnv.enable = true;
+
+  virtualisation.docker.enable = true;
+
   #programs.waybar = {
   #enable = true;
   #Your other waybar configurations...
   #};
-
+  networking.firewall.allowedTCPPorts = [3000];
   # Virtualbox configs
   virtualisation.virtualbox.host.enable = true;
   boot.kernelParams = ["kvm.enable_virt_at_load=0"];
