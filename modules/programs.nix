@@ -45,6 +45,7 @@ in {
       lmstudio
       ollama
       #Others
+      exfatprogs
       calibre
       docker
       zapzap
