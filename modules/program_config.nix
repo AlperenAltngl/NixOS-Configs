@@ -56,6 +56,21 @@
     extraPortals = [pkgs.xdg-desktop-portal-wlr];
   };
 
+  programs.gamemode = {
+    enable = true;
+    enableRenice = true;
+    settings = {
+      general = {
+        softrealtime = "auto";
+        renice = 10;
+      };
+      custom = {
+        start = "notify-send -a 'Gamemode' 'Optimizations activated'";
+        end = "notify-send -a 'Gamemode' 'Optimizations deactivated'";
+      };
+    };
+  };
+
   imports = [inputs.aagl.nixosModules.default];
 
   nix.settings = inputs.aagl.nixConfig;

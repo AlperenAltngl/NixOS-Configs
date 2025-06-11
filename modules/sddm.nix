@@ -2,7 +2,7 @@
   myWallpaper = pkgs.stdenv.mkDerivation {
     name = "my-wallpaper";
     src = builtins.path {
-      path = ../wallpapers/KillKnight-Void.jpg;
+      path = ../wallpapers/NixAnimeGirl.webp;
       name = "Kill-knight-wpp.jpg";
     };
     phases = ["installPhase"];

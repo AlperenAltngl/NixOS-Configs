@@ -22,6 +22,7 @@ in {
       git
       lazygit
       #devTools
+      neovim
       qtcreator
       qt6.full
       libsForQt5.qt5.qmake
@@ -45,6 +46,8 @@ in {
       lmstudio
       ollama
       #Others
+      aseprite
+      p7zip-rar
       exfatprogs
       calibre
       docker
