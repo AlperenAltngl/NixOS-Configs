@@ -2,7 +2,7 @@
   fonts = {
     enableDefaultPackages = true;
 
-    fonts = with pkgs; [
+    packages = with pkgs; [
       noto-fonts
       noto-fonts-cjk-sans
       ubuntu_font_family

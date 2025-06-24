@@ -2,6 +2,7 @@
 in {
   environment = {
     systemPackages = with pkgs; [
+      steamtinkerlaunch
       brave
       cloudflare-warp
       vscodium-fhs
@@ -45,13 +46,15 @@ in {
       #AIStuf
       lmstudio
       ollama
+      #Emulators
+      shadps4
+      nero-umu
       #Others
       aseprite
       p7zip-rar
+      rar
       exfatprogs
-      calibre
       docker
-      zapzap
       opentabletdriver
       rivalcfg
       krita
