@@ -14,5 +14,6 @@
     ./user.nix
     ./security.nix
     ./sddm.nix
+    ./flutter.nix
   ];
 }

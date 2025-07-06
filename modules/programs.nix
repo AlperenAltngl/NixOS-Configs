@@ -4,11 +4,11 @@ in {
     systemPackages = with pkgs; [
       steamtinkerlaunch
       brave
+      vivaldi
       cloudflare-warp
       vscodium-fhs
       nixd
       alejandra
-      bottles
       undervolt
       #Hyprland and costumisation
       kitty
@@ -23,6 +23,15 @@ in {
       git
       lazygit
       #devTools
+      #Flutter
+      flutter
+      dart
+      gradle
+      jdk
+      jdk17
+      android-studio
+      android-tools
+      #other Dev
       neovim
       qtcreator
       qt6.full
@@ -50,6 +59,7 @@ in {
       shadps4
       nero-umu
       #Others
+      zapzap
       aseprite
       p7zip-rar
       rar

@@ -1,6 +1,7 @@
 {...}: {
   # Enable the OpenSSH daemon.
   services.openssh.enable = true;
+  nix.settings.trusted-users = ["root" "freakymonk"];
 
   # Open ports in the firewall.
   # networking.firewall.allowedTCPPorts = [ 3000 ];
