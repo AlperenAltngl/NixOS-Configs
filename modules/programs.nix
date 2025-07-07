@@ -3,6 +3,7 @@ in {
   environment = {
     systemPackages = with pkgs; [
       steamtinkerlaunch
+      rufus
       brave
       vivaldi
       cloudflare-warp
@@ -29,7 +30,6 @@ in {
       gradle
       jdk
       jdk17
-      android-studio
       android-tools
       #other Dev
       neovim
@@ -38,8 +38,7 @@ in {
       libsForQt5.qt5.qmake
       direnv
       (python3.withPackages (p: with p; [pynvml]))
-      # coding tools
-      protonup
+      # coding toolS
       godot_4
       jetbrains-toolbox
       code-cursor
@@ -63,6 +62,8 @@ in {
       aseprite
       p7zip-rar
       rar
+      prometheus
+      protonup
       exfatprogs
       docker
       opentabletdriver
