@@ -3,7 +3,6 @@ in {
   environment = {
     systemPackages = with pkgs; [
       steamtinkerlaunch
-      rufus
       brave
       vivaldi
       cloudflare-warp
